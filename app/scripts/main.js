@@ -44,4 +44,12 @@ jQuery(document).ready(function($){
 			});
 		}
 	});
+
+	 var mySwiper = new Swiper ('.swiper-container', {
+	    // If we need pagination
+	    pagination: '.swiper-pagination',
+	    zoom: 'true',
+	    nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+	  });
 });

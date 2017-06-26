@@ -490,3 +490,24 @@ html, body {
     font-size: 1.25rem;
   }
 }
+
+.swiper-container {
+    width: 800px;
+    height: 600px;
+}
+.swiper-slide {
+    overflow: hidden;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-1-img {
+  background-image: url('/images/photos/header_1.jpg');
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
