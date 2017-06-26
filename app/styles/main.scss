@@ -439,7 +439,9 @@ html, body {
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url("../images/wb_cover.jpg") no-repeat center center;
+  background: rgba(2, 23, 37, 0.95);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #bdc3c7, rgba(2, 23, 37, 0.95));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #bdc3c7, rgba(2, 23, 37, 0.95)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -472,7 +474,7 @@ html, body {
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
-    height: 700px;
+    // height: 700px;
   }
 }
 
@@ -505,9 +507,65 @@ html, body {
 }
 
 .header-1-img {
+  background-image: url('/images/photos/header_2.jpg');
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-2-img {
   background-image: url('/images/photos/header_1.jpg');
   width:100vw;
   height: 100vh;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.header-3-img {
+  background-image: url('/images/photos/header_3.jpg');
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-4-img {
+  background-image: url('/images/photos/header_4.jpg');
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-5-img {
+  background-image: url('/images/photos/header_5.jpg');
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-6-img {
+  background-image: url('/images/photos/header_6.jpg');
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 450px) {
+  .header-img {
+      background-size: contain;
+      height: 80vh;
+      margin-top: 10vh;
+  }
+}
+
+
