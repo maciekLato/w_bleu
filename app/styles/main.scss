@@ -98,6 +98,7 @@ Modules - reusable parts of our design
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 .cd-container:after {
   content: "";
@@ -481,7 +482,7 @@ html, body {
 }
 .cd-main-content p {
   line-height: 1.6;
-  margin: 2em 0;
+  // margin: 2em 0;
 }
 @media only screen and (min-width: 1170px) {
   .cd-main-content p {
@@ -611,4 +612,20 @@ html, body {
   }
 }
 
+h1 {
+  font-size: 28px;
+}
 
+h2 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 794px) {
+  .bio-img {
+    margin-bottom: 18px;
+  }
+}
+
+.cd-container.first {
+  margin-top: 32px;
+}

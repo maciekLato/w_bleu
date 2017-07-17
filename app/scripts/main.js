@@ -45,6 +45,12 @@ jQuery(document).ready(function($){
 		}
 	});
 
+	$('.page-scroll').bind('click', function(event) {
+	    if($('.cd-menu-icon').hasClass('is-clicked')) {
+	      $('.cd-primary-nav-trigger').trigger('click');
+	    }
+	});
+
 	 var mySwiper = new Swiper ('.swiper-container', {
 	    // If we need pagination
 	    pagination: '.swiper-pagination',
