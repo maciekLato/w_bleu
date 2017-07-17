@@ -514,7 +514,7 @@ html, body {
 }
 
 .header-2-img {
-  background-image: url('/images/photos/header_1.jpg');
+  background-image: url('/images/photos/cover_bass_elec.jpg');
   width:100vw;
   height: 100vh;
   background-position: center;
@@ -618,6 +618,10 @@ h1 {
 
 h2 {
   font-size: 20px;
+}
+
+.teaching {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 794px) {

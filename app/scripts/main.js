@@ -53,6 +53,7 @@ jQuery(document).ready(function($){
 
 	 var mySwiper = new Swiper ('.swiper-container', {
 	    // If we need pagination
+	    autoplay: 7000,
 	    pagination: '.swiper-pagination',
 	    zoom: 'true',
 	    nextButton: '.swiper-button-next',
